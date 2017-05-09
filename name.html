@@ -12,17 +12,18 @@
 </head>
 <body>
     <div class="container">
-        <header>
-
-        </header>
-
-        <div id="banner" class="larger-header">
-            <ul id="app" class="fly-in-text hidden">
-                <li class="">Enhui</li>
-                <li>Guo</li>
+        <header id="header" class="larger-header">
+            <ul class="fly-in-text name hidden">
+                <li class="name-font">Enhui</li>
+                <li class="name-font">Guo</li>
+            </ul>
+            <ul class="fly-in-text link hidden">
+                <li><a class="fa fa-linkedin fa-fw" href="https://www.linkedin.com/in/enhui-guo-b7a265105/?ppe=1"></a></li>
+                <li><a class="fa fa-github fa-fw" href="https://github.com/EnhuiGuo"></a></li>
+                <li><a class="fa fa-facebook-official fa-fw" href="https://www.facebook.com/enhui.guo"></a></li>
             </ul>
             <canvas id="canvas"></canvas>
-        </div>
+        </header>
 
         <div id="content" class="w3-light-grey" style="background-color:aliceblue;">
             <div id="app" class="w3-row-padding">
@@ -142,9 +143,48 @@
     <script>
         $(document).ready(function () {
             setTimeout(function () {
-                $('#app').removeClass('hidden')
+                $('.fly-in-text').removeClass('hidden');
             }, 500);
+
+        // ripple effect
+        //    $(".sss").click(function (e) {
+
+        //        // Remove any old one
+        //        $(".ripple").remove();
+
+        //        // Setup
+        //        var posX = $(this).offset().left,
+        //            posY = $(this).offset().top,
+        //            buttonWidth = $(this).width(),
+        //            buttonHeight = $(this).height();
+
+        //        // Add the element
+        //        $(this).prepend("<span class='ripple'></span>");
+
+
+        //        // Make it round!
+        //        if (buttonWidth >= buttonHeight) {
+        //            buttonHeight = buttonWidth;
+        //        } else {
+        //            buttonWidth = buttonHeight;
+        //        }
+
+        //        // Get the center of the element
+        //        var x = e.pageX - posX - buttonWidth / 2;
+        //        var y = e.pageY - posY - buttonHeight / 2;
+
+
+        //        // Add the ripples CSS and start the animation
+        //        $(".ripple").css({
+        //            width: buttonWidth,
+        //            height: buttonHeight,
+        //            top: y + 'px',
+        //            left: x + 'px'
+        //        }).addClass("rippleEffect");
+        //    });
+
         });
+
     </script>
 </body>
 </html>

@@ -11,7 +11,7 @@
         height = window.innerHeight;
         target = {x: 0, y: height};
 
-        largeHeader = document.getElementById('banner');
+        largeHeader = document.getElementById('header');
         console.log(largeHeader);
         largeHeader.style.height = height+'px';
 

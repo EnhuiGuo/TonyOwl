@@ -24,7 +24,7 @@ p {
   position: relative;
   text-align: center;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translateX(-50%) translateY(-50%); }
   .fly-in-text li {
     display: inline-block;
@@ -45,41 +45,41 @@ p {
   opacity: 0; }
 
 .fly-in-text.hidden li:nth-child(1) {
-  transform: translateX(69px) translateY(-19px); }
+  transform: translateX(-54px) translateY(-65px); }
 
 .fly-in-text.hidden li:nth-child(2) {
-  transform: translateX(76px) translateY(53px); }
+  transform: translateX(-4px) translateY(-62px); }
 
 .fly-in-text.hidden li:nth-child(3) {
-  transform: translateX(-26px) translateY(-43px); }
+  transform: translateX(-49px) translateY(-38px); }
 
 .fly-in-text.hidden li:nth-child(4) {
-  transform: translateX(-66px) translateY(17px); }
+  transform: translateX(7px) translateY(17px); }
 
 .fly-in-text.hidden li:nth-child(5) {
-  transform: translateX(4px) translateY(0px); }
+  transform: translateX(-82px) translateY(81px); }
 
 .fly-in-text.hidden li:nth-child(7) {
-  transform: translateX(7px) translateY(-47px); }
+  transform: translateX(-97px) translateY(-82px); }
 
 .fly-in-text.hidden li:nth-child(8) {
-  transform: translateX(-60px) translateY(-4px); }
+  transform: translateX(-6px) translateY(56px); }
 
 .fly-in-text.hidden li:nth-child(9) {
-  transform: translateX(-51px) translateY(65px); }
+  transform: translateX(54px) translateY(-1px); }
 
 header {
   height: 80px;
-  background-color: #b6ff00;
+  background-color: #009688;
   width: 100%;
   z-index: 999;
   position: fixed; }
 
 #banner {
   width: 100%;
-  height: 855px;
-  position: fixed;
-  top: 100px;
+  height: 1000px;
+  position: relative;
+  top: 80px;
   background-image: url("img/demo-2-bg.jpg");
   background-position: center bottom; }
 

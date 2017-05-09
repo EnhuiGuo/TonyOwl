@@ -1,39 +1,39 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>TonyOwl</title>
-        <link rel="stylesheet" href="tonyowl.css">
-        <link href='//fonts.googleapis.com/css?family=Clicker Script' rel='stylesheet'>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
-    <body class="w3-light-grey">
-        <div class="container">
-            <header>
-                <h1>This is my header</h1>
-            </header>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TonyOwl</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="tonyowl.css">
+</head>
+<body>
+    <div class="container">
+        <header>
 
-            <div id="banner">
-                <ul id="app" class="fly-in-text hidden">
-                    <!--<li>E</li>
-                    <li>N</li>
-                    <li>H</li>
-                    <li>U</li>
-                    <li>I</li>
-                    <li></li>
-                    <li>G</li>
-                    <li>U</li>
-                    <li>O</li>-->
-                    <li>Enhui</li>
-                    <li>Guo</li>
-                </ul>
-            </div>
+        </header>
 
-            <div id="content">
+        <div id="banner">
+            <ul id="app" class="fly-in-text hidden">
+                <!--<li>E</li>
+                <li>N</li>
+                <li>H</li>
+                <li>U</li>
+                <li>I</li>
+                <li></li>
+                <li>G</li>
+                <li>U</li>
+                <li>O</li>-->
+                <li class="">Enhui</li>
+                <li>Guo</li>
+            </ul>
+        </div>
+
+        <div id="content" class="w3-light-grey" style="background-color:aliceblue;">
+            <div id="app" class="w3-row-padding">
                 <div class="w3-third">
                     <div class="w3-white w3-text-grey w3-card-4">
                         <div class="w3-display-container">
@@ -131,14 +131,15 @@
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <script>
-            $(document).ready(function(){
-                setTimeout(function(){
-                    $('#app').removeClass('hidden')
-                }, 500);
-            });
-        </script>
-    </body>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $('#app').removeClass('hidden')
+            }, 500);
+        });
+    </script>
+</body>
 </html>

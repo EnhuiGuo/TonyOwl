@@ -189,3 +189,15 @@ p {
 .fa-facebook-official:hover {
     color: #3b5998;
 }
+
+#datou {
+    height: 80px;
+    background-color: #009688;
+}
+
+.stuck {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}

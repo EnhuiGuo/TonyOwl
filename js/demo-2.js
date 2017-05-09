@@ -36,8 +36,15 @@
     }
 
     function scrollCheck() {
-        if(document.body.scrollTop > height) animateHeader = false;
-        else animateHeader = true;
+        if (document.body.scrollTop > height) {
+            animateHeader = false;
+            $('#datou').addClass('stuck').show();
+        }
+        else
+        {
+            animateHeader = true;
+            $('#datou').removeClass('stuck').hide();
+        }
     }
 
     function resize() {

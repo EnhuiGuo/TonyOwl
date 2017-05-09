@@ -51,19 +51,19 @@ p {
   opacity: 0; }
 
 .fly-in-text.name.hidden li:nth-child(1) {
-  transform: translateX(78px) translateY(18px); }
+  transform: translateX(65px) translateY(-96px); }
 
 .fly-in-text.name.hidden li:nth-child(2) {
-  transform: translateX(-38px) translateY(11px); }
+  transform: translateX(5px) translateY(79px); }
 
 .fly-in-text.link.hidden li:nth-child(1) {
-  transform: translateX(-14px) translateY(78px); }
+  transform: translateX(-82px) translateY(-4px); }
 
 .fly-in-text.link.hidden li:nth-child(2) {
-  transform: translateX(15px) translateY(51px); }
+  transform: translateX(-10px) translateY(-37px); }
 
 .fly-in-text.link.hidden li:nth-child(3) {
-  transform: translateX(-81px) translateY(46px); }
+  transform: translateX(69px) translateY(-76px); }
 
 /*.fly-in-text.hidden li:nth-child(3) {
     transform: translateX(random(200)-100+px) translateY(random(200)-100+px);
@@ -150,5 +150,15 @@ p {
 
 .fa-facebook-official:hover {
   color: #3b5998; }
+
+#datou {
+  height: 80px;
+  background-color: #009688; }
+
+.stuck {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0; }
 
 /*# sourceMappingURL=tonyowl.css.map */
